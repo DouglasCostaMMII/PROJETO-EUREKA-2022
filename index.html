@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="icon" href="./img/ODS-Em-Pauta.webp">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
     <title>RECICLE_AGORA</title>
 
@@ -16,7 +17,7 @@
 
 <body>
     <header>
-        <a href="#" class="logo"><span>RECICLAR</span>FAZ BEM</a>
+        <a href="#" class="logo"><span>RECICLAR</span>FAZBEM</a>
         <ul class="nav">
             <li><a href="#home">Inicio</a></li>
             <li><a href="#about">Sobre</a></li>
@@ -26,7 +27,7 @@
         <div class="action">
             <div class="searchBx">
                 <a href="#"><i class='bx bx-search'></i></a>
-                <input type="search" name="" id="" placeholder="Search ">
+                <input type="search" name="" id="" placeholder="Pesquisar ">
             </div>
         </div>
         <div class="toggleMenu"></div>
@@ -37,7 +38,7 @@
         <div class="bg">
             <div class="content">
                 <h2> Reciclagem em 2022 : aprenda a descartar corretamente<br>   </h2>
-                <p>Sabemos que os materias descartados incorretamente são problemas já visto no cotidiano de milhares de pessoas no mundo, Apenas na América Latina foram produzidos3,9 milhões de toneladas de lixo eletronicos na região em 2014, somente o  Brasil foi responsavel por produzir 1,4 milhões de toneladas de lixo. Com isso, todo dia surgem novas ideias de conscientização, um dos maiores exemplos é o ODS - OBJETIVOS DE DESENVOLVIMENTO SUSTENTAVEL  </p>
+                <p>Sabemos que os materias descartados incorretamente são problemas já vistos no cotidiano de milhares de pessoas no mundo. Apenas na América Latina foram produzidos 3,9 milhões de toneladas de lixo eletronico na região em 2014.somente o  Brasil foi responsável por produzir 1,4 milhões de toneladas de lixo. Com isso, todo dia surgem novas ideias de conscientização, um dos maiores exemplos é o ODS - OBJETIVOS DE DESENVOLVIMENTO SUSTENTAVEL  </p>
                 <a href="https://habitability.com.br/ods-11-conheca-o-objetivo-da-onu-para-as-cidades/?utm_source=google_pago&utm_medium=&utm_content=&gclid=CjwKCAiAv9ucBhBXEiwA6N8nYAWyyzXHkhc-TjrLEq79poX7B_RJmgfsLas4_sh1syJ5RUKO_klP8xoCAUMQAvD_BwE" class="">Saiba Mais </a>
 
                 <div> 
@@ -66,7 +67,7 @@
     <!-- Games -->
     <!-- Tournaments -->
     <div class="tournaments" id="tournaments">
-        <h2>Tipos de lixeiros e suas caracteristicas.</h2>
+        <h2>Tipos de lixeiros e suas características.</h2>
         <div class="boxBx">
             <div class="box">
                 <img src="./img/lixiera marom.png" alt="">
@@ -147,21 +148,36 @@
         <div class="container">
             <div class="content-contato">
                 <div class="contato-left">
-                    <h1>Caso queira doar, entre em contato!</h1>
+                    <h1>Entre em contato!</h1>
                     <div class="linha"></div>
-                    <span><ion-icon name="mail-outline"></ion-icon>ReciclarFazBem@gmail.com</span>
-                    <span><ion-icon name="call-outline"></ion-icon>+55 67676767676</span>      
-                    <span><ion-icon name="location-outline"></ion-icon>SC- Florianopolis</span>
+                   
+                    <a class="linkedin" href="https://www.linkedin.com/in/dougllascosta/"> <i class="bi bi-linkedin"> </i> Douglas </a>
+                    <a class="linkedin" href="https://www.linkedin.com/in/israeljunior010/"> <i class="bi bi-linkedin"> </i> Israel</a>
+                    <a class="linkedin" href="https://www.linkedin.com/in/wesleytmarques/"> <i class="bi bi-linkedin"> </i> Wesley</a>
+                    <a class="linkedin" href=""> <i class="bi bi-linkedin"> </i> Ariel</a>
                 </div>
                 <div class="contato-right">
-                    <h1> Preencha o formulario</h1>
+                    <h1> Nos envia um feedback!</h1>
+
                     <div class="linha"></div>
-                    <input type="email" placeholder="E-mail">
-                    <input type="text" placeholder="Name">
-                    <textarea placeholder="Message"></textarea>
+
+                  <form action="https://formsubmit.co/douglas.costa2002@gmail.com" method="POST">
+                    <input type="email" name="email" placeholder=" Digite seu E-mail" required>
+                    <input type="text" name="Nome" placeholder="Digite seu nome" required>
+                    <textarea   name="Feedback" placeholder=" O seu Feedback é sempre importante, nos envie uma mensagem!" required></textarea>
+                    <button class="botaoenviar" type="submit">Enviar</button>
+                    <input type="hidden" name="_Subject" value="Novo Contato!">
+                    <input type="text " name="_honey" style="display: none;">
+                    <input type="hidden" name="_captcha" value="false" >
+                    <input type="hidden" name="_next" value="https://douglascostammii.github.io/PROJETO-EUREKA-2022"  >
+
+                  </form>
+                    
                 </div>
             </div>
         </div>
+
+        
     </section>
     <!-- Footer -->
     <footer>
